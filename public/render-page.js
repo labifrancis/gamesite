@@ -4823,24 +4823,24 @@ if (false) {} else {
 /***/ }),
 
 /***/ "react-dom/server":
-/*!********************************************************************************************!*\
-  !*** external "/Users/labi/Desktop/Gatsby Wesbos/gatsby/node_modules/react-dom/server.js" ***!
-  \********************************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** external "/Users/labi/Desktop/Gatsby Wesbos/gamesite/node_modules/react-dom/server.js" ***!
+  \**********************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/Users/labi/Desktop/Gatsby Wesbos/gatsby/node_modules/react-dom/server.js");
+module.exports = require("/Users/labi/Desktop/Gatsby Wesbos/gamesite/node_modules/react-dom/server.js");
 
 /***/ }),
 
 /***/ "react":
-/*!***************************************************************************************!*\
-  !*** external "/Users/labi/Desktop/Gatsby Wesbos/gatsby/node_modules/react/index.js" ***!
-  \***************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** external "/Users/labi/Desktop/Gatsby Wesbos/gamesite/node_modules/react/index.js" ***!
+  \*****************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/Users/labi/Desktop/Gatsby Wesbos/gatsby/node_modules/react/index.js");
+module.exports = require("/Users/labi/Desktop/Gatsby Wesbos/gamesite/node_modules/react/index.js");
 
 /***/ })
 
