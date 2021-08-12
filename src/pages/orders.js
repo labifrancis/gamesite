@@ -9,3 +9,16 @@ export default function orders() {
     </>
   );
 }
+export const assetQuery = graphql`
+  {
+    contentfulAsset(filter: { title: { eq: 'foo' } }) {
+      image {
+        resolutions(width: 1600) {
+          width
+          height
+          src
+          srcSet
+        }
+      }
+    }
+  }
