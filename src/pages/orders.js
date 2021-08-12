@@ -9,7 +9,7 @@ export default function orders() {
     </>
   );
 }
-export const assetQuery = graphql`
+/* export const assetQuery = graphql`
   {
     contentfulAsset(filter: { title: { eq: 'foo' } }) {
       image {
@@ -21,4 +21,4 @@ export const assetQuery = graphql`
         }
       }
     }
-  }
+  } */

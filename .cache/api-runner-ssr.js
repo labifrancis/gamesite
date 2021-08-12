@@ -1,4 +1,12 @@
-var plugins = []
+var plugins = [{
+      name: 'gatsby-plugin-styled-components',
+      plugin: require('/Users/labi/Desktop/Gatsby Wesbos/gamesite/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      options: {"plugins":[],"displayName":true,"fileName":true,"minify":true,"namespace":"","transpileTemplateLiterals":true,"pure":false},
+    },{
+      name: 'gatsby-source-sanity',
+      plugin: require('/Users/labi/Desktop/Gatsby Wesbos/gamesite/node_modules/gatsby-source-sanity/gatsby-ssr'),
+      options: {"plugins":[],"projectId":"el2hmwsy","dataset":"production","watchmode":true,"token":"process.env.SANITY_TOKEN"},
+    }]
 /* global plugins */
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
