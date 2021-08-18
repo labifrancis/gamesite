@@ -56,7 +56,7 @@ export default function Nav() {
           <Link to="/">Hot Now</Link>
         </li>
         <li>
-          <Link to="pizzas">Pizza Menu</Link>
+          <Link to="/pizzas">Pizza Menu</Link>
         </li>
         <li>
           <Link to="/">
@@ -64,10 +64,10 @@ export default function Nav() {
           </Link>
         </li>
         <li>
-          <Link to="slicemasters">SliceMatsers</Link>
+          <Link to="/slicemasters">SliceMatsers</Link>
         </li>
         <li>
-          <Link to="orders"> Order Page Ahead!</Link>
+          <Link to="/orders"> Order Page Ahead!</Link>
         </li>
       </ul>
     </NavStyles>

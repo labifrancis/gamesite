@@ -1,1 +1,10 @@
-[]
+[
+    {
+        "functionRoute": "hello-world",
+        "pluginName": "default-site-plugin",
+        "originalAbsoluteFilePath": "/Users/labi/Desktop/Gatsby Wesbos/gamesite/src/api/hello-world.js",
+        "originalRelativeFilePath": "hello-world.js",
+        "relativeCompiledFilePath": "hello-world.js",
+        "absoluteCompiledFilePath": "/Users/labi/Desktop/Gatsby Wesbos/gamesite/.cache/functions/hello-world.js"
+    }
+]

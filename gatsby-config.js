@@ -2,7 +2,6 @@ require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
-console.log(process.env.CONTENTFUL_ACCESS_TOKEN);
 module.exports = {
   plugins: [
     {
@@ -10,7 +9,7 @@ module.exports = {
       options: {
         spaceId: `e4h5wcbnzqxz`,
         // Learn about environment variables: https://gatsby.dev/env-vars
-        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+        accessToken: `7tnHen88A0XwZh2aDvD_u2m8UTJtKyYx-paX6gaqK64`,
       },
     },
   ],
